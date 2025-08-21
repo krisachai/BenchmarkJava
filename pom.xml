@@ -3,14 +3,15 @@
     <groupId>org.owasp</groupId>
     <artifactId>benchmark</artifactId>
     <version>1.2</version>
+    <properties>
+        <sonar.organization>krisachai</sonar.organization>
+    </properties>
     <packaging>war</packaging>
 
     <name>OWASP Benchmark for Java</name>
     <description>OWASP Benchmark is a Java test suite designed to evaluate the accuracy, coverage, and speed of automated software vulnerability detection tools.</description>
     <url>https://github.com/OWASP-Benchmark/BenchmarkJava</url>
-    <properties>
-    <sonar.organization>krisachai</sonar.organization>
-    </properties>
+
     <developers>
         <developer>
             <id>davewichers</id>
